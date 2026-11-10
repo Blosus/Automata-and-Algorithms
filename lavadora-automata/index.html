@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simulador de Lavadora (Autómata Finito)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Simulador de Lavadora (Autómata Finito)</h1>
+
+  <div class="machineWrap">
+    <div id="circle" class="circle s-q0">
+      <span id="circleText">Apagado (q0)</span>
+    </div>
+  </div>
+
+  <div id="botones"></div>
+  <p id="estadoActual">Estado actual: q0 (Apagado)</p>
+
+  <div class="panel">
+    <input type="text" id="entrada" placeholder="Ingresa palabra (a-e)">
+    <button id="btnCargar">Cargar</button>
+    <button id="btnPaso">Paso</button>
+    <button id="btnAuto">Auto</button>
+    <button id="btnReset">Reiniciar</button>
+  </div>
+
+  <div id="tape"></div>
+  <p id="mensaje"></p>
+
+  <audio id="sound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_5e4dcbb2df.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
