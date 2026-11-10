@@ -9,7 +9,9 @@ Simula una lavadora como un autómata finito determinista con estados `q0` a `q7
 - Modo manual: cada estado muestra solo los botones de sus transiciones válidas.
 - Modo palabra: carga una cadena (por ejemplo `aaaaae`) y recórrela paso a paso o en automático sobre una "cinta" visual. Al final indica si la palabra termina en `q0`.
 
-HTML, CSS y JavaScript sin dependencias: basta con abrir `lavadora-automata/index.html`.
+**Demo en vivo:** https://blosus.github.io/Automata-and-Algorithms/lavadora-automata/
+
+HTML, CSS y JavaScript sin dependencias: también basta con abrir `lavadora-automata/index.html`.
 
 ## Bellman-Ford — `bellman-ford/`
 
